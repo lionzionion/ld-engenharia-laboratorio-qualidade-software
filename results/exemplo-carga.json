@@ -1,0 +1,62 @@
+{
+  "runAt": "2026-11-01T20:07:07.600Z",
+  "reports": [
+    {
+      "scenario": "leve",
+      "clients": 25,
+      "virtualUsers": 10,
+      "requests": 250,
+      "created": 250,
+      "replayed": 0,
+      "unexpectedErrors": 0,
+      "serverDrafts": 250,
+      "consistent": true,
+      "elapsedSeconds": 0.382,
+      "throughputRps": 654.29,
+      "p50Ms": 14.16,
+      "p95Ms": 19.25,
+      "p99Ms": 44.24,
+      "errorSamples": [],
+      "dbSizeBytes": 225280,
+      "environment": "Node 22 + SQLite local, temporário, sem NFS-e real"
+    },
+    {
+      "scenario": "normal",
+      "clients": 80,
+      "virtualUsers": 25,
+      "requests": 800,
+      "created": 800,
+      "replayed": 0,
+      "unexpectedErrors": 0,
+      "serverDrafts": 800,
+      "consistent": true,
+      "elapsedSeconds": 1.081,
+      "throughputRps": 740.3,
+      "p50Ms": 28.77,
+      "p95Ms": 43.43,
+      "p99Ms": 175.31,
+      "errorSamples": [],
+      "dbSizeBytes": 598016,
+      "environment": "Node 22 + SQLite local, temporário, sem NFS-e real"
+    },
+    {
+      "scenario": "pico",
+      "clients": 150,
+      "virtualUsers": 50,
+      "requests": 1600,
+      "created": 1600,
+      "replayed": 0,
+      "unexpectedErrors": 0,
+      "serverDrafts": 1600,
+      "consistent": true,
+      "elapsedSeconds": 1.991,
+      "throughputRps": 803.52,
+      "p50Ms": 40.92,
+      "p95Ms": 73.29,
+      "p99Ms": 571.15,
+      "errorSamples": [],
+      "dbSizeBytes": 1110016,
+      "environment": "Node 22 + SQLite local, temporário, sem NFS-e real"
+    }
+  ]
+}

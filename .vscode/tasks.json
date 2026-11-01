@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"LD LAB: Iniciar sistema", "type":"shell", "command":"npm start", "problemMatcher":[], "group":"build"},
+    {"label":"LD LAB: 42 testes", "type":"shell", "command":"npm test", "problemMatcher":[], "group":"test"},
+    {"label":"LD LAB: Carga local", "type":"shell", "command":"npm run load", "problemMatcher":[]},
+    {"label":"LD LAB: Estresse local", "type":"shell", "command":"npm run load:stress", "problemMatcher":[]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ld-engenharia-laboratorio-testes",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "Laboratório educacional Full Stack de clientes e pré-notas fiscais fictícias com SQLite, TDD, BDD e testes de carga HTTP",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite src/server.mjs",
+    "dev": "node --experimental-sqlite --watch src/server.mjs",
+    "test": "node --experimental-sqlite --test tests/*.test.mjs",
+    "load": "node --experimental-sqlite load/run-load.mjs",
+    "seed": "node --experimental-sqlite scripts/seed.mjs",
+    "check": "npm test && npm run load",
+    "load:stress": "node --experimental-sqlite load/run-load.mjs --stress"
+  },
+  "dependencies": {}
+}

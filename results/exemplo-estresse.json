@@ -1,0 +1,24 @@
+{
+  "runAt": "2026-11-01T20:07:30.024Z",
+  "reports": [
+    {
+      "scenario": "estresse-controlado",
+      "clients": 100,
+      "virtualUsers": 100,
+      "requests": 5000,
+      "created": 5000,
+      "replayed": 0,
+      "unexpectedErrors": 0,
+      "serverDrafts": 5000,
+      "consistent": true,
+      "elapsedSeconds": 6.626,
+      "throughputRps": 754.63,
+      "p50Ms": 79.2,
+      "p95Ms": 103.4,
+      "p99Ms": 1873.53,
+      "errorSamples": [],
+      "dbSizeBytes": 3297280,
+      "environment": "Node 22 + SQLite local, temporário, sem NFS-e real"
+    }
+  ]
+}

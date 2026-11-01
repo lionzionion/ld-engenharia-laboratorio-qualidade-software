@@ -1,0 +1,15 @@
+LD Engenharia — Laboratório educacional de Qualidade de Software
+Data da validação: 01/11/2026
+Node.js: 22.16.0 | Banco: SQLite local, isolado
+
+TESTES: 42 / 42 APROVADOS (node:test)
+CARGA: perfis 250, 800, 1.600 e 5.000 requisições HTTP
+DOCUMENTOS FICTÍCIOS: 7.650, em 4 bancos temporários independentes
+ERROS INESPERADOS: 0
+CENÁRIO DE ESTRESSE: p95=103,40 ms; p99=1.873,53 ms
+
+Observação: p99 mais alto sugere cauda de latência sob estresse.
+Importante: NÃO mede LD Gestão original, Vercel, Supabase ou NFS-e real.
+Interface renderizada estaticamente; teste E2E pelo navegador foi bloqueado pela política do navegador de testes.
+API HTTP testada com requisições reais. JMeter/k6 incluídos, mas NÃO executados.
+Servidor vinculado a 127.0.0.1. Nenhuma credencial ou dado fiscal real usado.
